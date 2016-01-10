@@ -1,6 +1,9 @@
 # Leaflet.awesome-markers plugin v2.0
 Colorful iconic & retina-proof markers for Leaflet, based on the Glyphicons / Font-Awesome icons
 
+## demo
+http://jackdougherty.github.io/leaflet-markers/index.html
+
 Version 2.0 of Leaflet.awesome-markers is tested with:
 - Bootstrap 3
 - Font Awesome 4.0
@@ -12,7 +15,7 @@ For bootstrap 2.x & Fontawesome 3.x use Leaflet.awesome-markers v1.0
 ## Screenshots
 ![AwesomeMarkers screenshot](https://raw.github.com/lvoogdt/Leaflet.awesome-markers/master/screenshots/screenshot-soft.png "Screenshot of AwesomeMarkers")
 
-<a href="http://jsfiddle.net/VPzu4/92/" target="_blank">JSfiddle demo</a> 
+<a href="http://jsfiddle.net/VPzu4/92/" target="_blank">JSfiddle demo</a>
 
 ### Twitter Bootstrap/Font-Awesome icons
 This plugin depends on either Bootstrap or Font-Awesome for the rendering of the icons. See these urls for more information:
@@ -42,7 +45,7 @@ http://getbootstrap.com/getting-started/
 For Ionicons:
 
 Add the ionicon stylesheet from a [CDN](http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css) or [download ionicons](http://ionicons.com).
-    
+
 ````xml
 <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
 ````
@@ -62,7 +65,7 @@ Add the ionicon stylesheet from a [CDN](http://code.ionicframework.com/ionicons/
     icon: 'coffee',
     markerColor: 'red'
   });
-      
+
   L.marker([51.941196,4.512291], {icon: redMarker}).addTo(map);
 ````
 
@@ -74,7 +77,7 @@ Add the ionicon stylesheet from a [CDN](http://code.ionicframework.com/ionicons/
 | prefix          | Select de icon library | 'glyphicon'   | 'fa' for font-awesome or 'glyphicon' for bootstrap 3 |
 | markerColor     | Color of the marker    | 'blue'        | 'red', 'darkred', 'orange', 'green', 'darkgreen', 'blue', 'purple', 'darkpuple', 'cadetblue' |
 | iconColor       | Color of the icon      | 'white'       | 'white', 'black' or css code (hex, rgba etc) |
-| spin            | Make the icon spin     | false         | true or false. Font-awesome required | 
+| spin            | Make the icon spin     | false         | true or false. Font-awesome required |
 | extraClasses    | Additional classes in the created <i> tag | '' | 'fa-rotate90 myclass' eller other custom configuration |
 
 
